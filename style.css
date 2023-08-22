@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(idroid.otf)format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image: linear-gradient(to left,#288C54,#37C677,#64F4BB );
+    width: auto;
+    min-height: auto;
+    margin:-9px -8px -30px ;
+    padding: 9px;
+    box-shadow:1px 0px 4px 0px black;
+    
+}
+
+.começo{
+    color: white;
+   text-align:center;
+}
+.titulo{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: #64f4ba98;
+}
+p{
+    text-align: justify;
+}
+h1{
+    color:green;
+    font-family: 'idroid';
+    margin:8px;
+    
+}
+.ultimoparagrafo{
+    color: white;
+    background-color: #2FA866;
+    background-image:linear-gradient(to right , green,white,#2FA866);
+    margin: -3px;
+    border-radius: 6px;
+}
+
+h2{
+    color: green;
+    background-color: rgba(23, 179, 124, 0.72);
+    font-family: 'idroid';
+    background-image:linear-gradient(to left , green,white,#2FA866);
+    margin: 8px;
+}
+main{
+    background-color: white;
+    border-radius: 0px 0px 24px 24px ;
+    min-width:320px;
+    max-width: 800px;
+    margin: 30px auto;
+    
+
+}
+iframe{
+    background-color: #1A5C38;
+}
+body{
+    background-color: #84E1AD;
+}
+footer{
+    background-color: #1A5C38;
+    height: auto;
+    margin: auto;
+    height: 23px
+    
+}
+section{
+    background-color: #C5EBD6;
+    margin: 10px;
+    border-radius: 10px 10px;
+    padding: 3px;
+}
+.ult{
+    color: white;
+    text-align: center;
+}
+a{
+    color: #1A5C38;
+    text-decoration: none;
+    
+}
+
+img{
+    width: 100%;
+}
+header p{
+    text-align:center;
+}
+ul{
+    columns: 2;
+}
+div.video{
+    background-color: #1A5C38;
+    margin-bottom: 30px;
+    margin: 0px 0px 0 01px;
+    padding-bottom: 60%;
+    position: relative;
+}
+div.video iframe{
+position: absolute;
+top:5%;
+left: 5%;
+width: 90%;
+height: 90%;
+
+}
